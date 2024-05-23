@@ -5,5 +5,20 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 8px
+  gap: 8px;
+  padding-top: 16px
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin: 16px;
 }
